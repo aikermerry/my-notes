@@ -134,3 +134,43 @@
 基本教程就到这里吧，其他问题多百度，然后推荐到廖学峰的网站去
 
 网站地址：https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+
+
+## 时间12/20
+
+如果在上传工程中遇到问题比如：
+
+```
+G:\mymd>git push -u  origin master
+To github.com:aikermerry/my-notes.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'git@github.com:aikermerry/my-notes.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+这可能是上传的远程库与本地库版本不一样
+
+解决办法为：
+
+```
+方法一：
+git pull origin master #将远程库拉倒本地同步，如果不能解决
+方法二：
+git pull origin master --allow-unrelated-histories #这个是解决可能是版本不同的问题
+```
+
+<!--在我们小组的仓库中提交流程大致一样。有什么问题大家要积极搜索网络与想我提问-->
+
+参考链接：
+
+1.[版本问题](https://blog.csdn.net/lindexi_gd/article/details/52554159)
+
+2.[git-分支的新建与合并](https://blog.csdn.net/makenothing/article/details/53014308)
+
+
+
+​			
