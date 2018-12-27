@@ -10,8 +10,6 @@
 
 4. 在Windows Explorer integration选项中将“Git Bash here”和“Git GUI here”打对勾。 
 
-   ![1544432380559](C:\Users\11395\AppData\Local\Temp\1544432380559.png)
-
 5. 一直到安装成功
 
 
@@ -20,7 +18,7 @@
 
 登录github网站：https://github.com
 
-![1544432638622](C:\Users\11395\AppData\Local\Temp\1544432638622.png)
+![git sign up](.\pictures\git sign up.png)
 
 输入自己的用户名（自己喜欢的名字），自己的密码（最好是常用的）点击注册就OK啦！
 
@@ -32,16 +30,14 @@
 
 2. 在文件管理器的框内输入`cmd` 命令
 
-   ![1544433200912](C:\Users\11395\AppData\Local\Temp\1544433200912.png)
-
-![1544433271709](C:\Users\11395\AppData\Local\Temp\1544433271709.png)
+   ![cmd](.\pictures\cmd.png)
 
 2. 配置git，首先在本地创建`ssh key；`
 
     在命令框内输入`ssh-keygen -t rsa -C "your_email@youremail.com"`
 
    ```
-   G:\md>ssh-keygen -t rsa -C "1139513692@qq.com"
+   G:\md>ssh-keygen -t rsa -C "1139513***@qq.com"
    Generating public/private rsa key pair.
    Enter file in which to save the key (C:\Users\11395/.ssh/id_rsa):
    Created directory 'C:\Users\11395/.ssh'.
@@ -57,17 +53,15 @@
 
 3. 回到刚才注册的github并登陆自己的帐号，点击右上方的头像
 
-   ![1544434510185](C:\Users\11395\AppData\Local\Temp\1544434510185.png)
+   ![seting](.\pictures\seting.png)
 
    点击setting后找到左边选择SSH Keys，Add SSH Key,title随便填，粘贴在你电脑上生成的key 
 
-   ![1544435172817](C:\Users\11395\AppData\Local\Temp\1544435172817.png)
+   ![seting](.\pictures\ssh.png)
 
    找到你的密码文件id_rsa.pub，右键选择打开方式，选择记事本
 
-   复制过去![1544435475642](C:\Users\11395\AppData\Local\Temp\1544435475642.png)
-
-   点击添加就OK了
+   复制过去,点击添加就OK了
 
 4. 返回到命令框输入：
 
@@ -78,15 +72,15 @@
 
 5. 在github上创建一个仓库
 
-   ![1544436246567](C:\Users\11395\AppData\Local\Temp\1544436246567.png)
+   ![creat repositories](.\pictures\creat repositories.png)
 
-   ![1544436361626](C:\Users\11395\AppData\Local\Temp\1544436361626.png)
+   ![create2](.\pictures\create2.png)
 
 6. 建立远程连接
 
    然后复制这个地址用来建立远程连接
 
-   ![1544436494285](C:\Users\11395\AppData\Local\Temp\1544436494285.png)
+   ![remoteUrl](.\pictures\remoteUrl.png)
 
    ```
    git remote add origin git@github.com:yourName/yourRepo.git
