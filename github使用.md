@@ -29,7 +29,7 @@
 
 2. 在文件管理器的框内输入`cmd` 命令
 
-   ![cmd](.\pictures\cmd.png)
+   ![cmd](https://github.com/aikermerry/my-notes/pictures\cmd.png)
 
 2. 配置git，首先在本地创建`ssh key；`
 
@@ -52,11 +52,11 @@
 
 3. 回到刚才注册的github并登陆自己的帐号，点击右上方的头像
 
-   ![seting](.\pictures\seting.png)
+   ![seting.png](https://i.loli.net/2018/12/27/5c24a825b478e.png)
 
    点击setting后找到左边选择SSH Keys，Add SSH Key,title随便填，粘贴在你电脑上生成的key 
 
-   ![seting](.\pictures\ssh.png)
+   ![ssh.png](https://i.loli.net/2018/12/27/5c24a825cbbed.png)
 
    找到你的密码文件id_rsa.pub，右键选择打开方式，选择记事本
 
@@ -71,15 +71,15 @@
 
 5. 在github上创建一个仓库
 
-   ![creat repositories](.\pictures\creat repositories.png)
+   ![creat repositories.png](https://i.loli.net/2018/12/27/5c24a825aa14b.png)
 
-   ![create2](.\pictures\create2.png)
+   ![create2.png](https://i.loli.net/2018/12/27/5c24a825d2888.png)
 
 6. 建立远程连接
 
    然后复制这个地址用来建立远程连接
 
-   ![remoteUrl](.\pictures\remoteUrl.png)
+   ![remoteUrl.png](https://i.loli.net/2018/12/27/5c24a825d326e.png)
 
    ```
    git remote add origin git@github.com:yourName/yourRepo.git
