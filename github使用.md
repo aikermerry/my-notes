@@ -20,6 +20,8 @@
 
 ![git sign up](.\pictures\git sign up.png)
 
+[git sign up.png](https://github.com/aikermerry/my-notes/blob/master/pictures/git%20sign%20up.png)
+
 输入自己的用户名（自己喜欢的名字），自己的密码（最好是常用的）点击注册就OK啦！
 
 <!--下面的就是重点了-->
