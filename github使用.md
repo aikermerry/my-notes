@@ -1,7 +1,3 @@
----
-typora-copy-images-to: pictures
----
-
 # github 详细使用教程
 
 ## 安装客户端
@@ -16,7 +12,7 @@ typora-copy-images-to: pictures
 
 5. 一直到安装成功
 
-
+[git sign up](https://github.com/aikermerry/my-notes/blob/master/pictures/git%20sign%20up.png)
 
 ## 注册github
 
