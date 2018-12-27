@@ -1,3 +1,7 @@
+---
+typora-copy-images-to: pictures
+---
+
 # github 详细使用教程
 
 ## 安装客户端
