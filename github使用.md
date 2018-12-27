@@ -29,7 +29,7 @@
 
 2. 在文件管理器的框内输入`cmd` 命令
 
-   ![cmd](https://github.com/aikermerry/my-notes/pictures/cmd.png)
+   ![cmd.png](https://i.loli.net/2018/12/27/5c24a825b41d2.png)
 
 2. 配置git，首先在本地创建`ssh key；`
 
