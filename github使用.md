@@ -16,7 +16,9 @@
 
 登录github网站：https://github.com
 
-![git sign up](https://github.com/aikermerry/my-notes/tree/master/pictures/git sign up.png)
+```
+![git sign up.png](https://i.loli.net/2018/12/27/5c24a825b9038.png)
+```
 
 输入自己的用户名（自己喜欢的名字），自己的密码（最好是常用的）点击注册就OK啦！
 
