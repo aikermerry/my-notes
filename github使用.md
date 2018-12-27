@@ -12,13 +12,11 @@
 
 5. 一直到安装成功
 
-[git sign up](https://github.com/aikermerry/my-notes/blob/master/pictures/git%20sign%20up.png)
-
 ## 注册github
 
 登录github网站：https://github.com
 
-![git sign up](https://github.com/aikermerry/my-notes/tree/master/pictures\git sign up.png)
+![git sign up](https://github.com/aikermerry/my-notes/tree/master/pictures/git sign up.png)
 
 输入自己的用户名（自己喜欢的名字），自己的密码（最好是常用的）点击注册就OK啦！
 
